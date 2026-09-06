@@ -2,5 +2,5 @@
 # frozen_string_literal: true
 
 guard :yaml do
-  watch(%r{^config/(.*).yml})
+  watch(%r{^config/.+\.ya?ml$})
 end
