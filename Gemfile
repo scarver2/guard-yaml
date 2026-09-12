@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+# Gemfile
+# frozen_string_literal: true
 
-# Specify your gem's dependencies in guard-yaml.gemspec
+source "https://rubygems.org"
+
+# Specify the gem's dependencies in guard-yaml.gemspec.
 gemspec

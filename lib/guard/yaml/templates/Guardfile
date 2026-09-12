@@ -1,3 +1,6 @@
+# lib/guard/yaml/templates/Guardfile
+# frozen_string_literal: true
+
 guard :yaml do
   watch(%r{^config/(.*).yml})
 end
