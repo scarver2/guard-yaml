@@ -1,0 +1,4 @@
+application:
+  features:
+    - yaml
+    - guard

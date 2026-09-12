@@ -30,5 +30,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "guard", ">= 2.18", "< 3"
 
   gem.add_development_dependency "rake", "~> 13.2"
+  gem.add_development_dependency "rspec", "~> 3.13"
   gem.add_development_dependency "rubocop", "~> 1.75"
+  gem.add_development_dependency "simplecov", "~> 0.22"
 end
